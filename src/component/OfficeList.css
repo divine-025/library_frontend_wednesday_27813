@@ -1,0 +1,35 @@
+.office-list {
+    padding: 16px;
+}
+
+.office-list input[type="text"] {
+    width: 340px;
+    max-width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.office-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.office-list th,
+.office-list td {
+    border: 1px solid var(--border);
+    padding: 8px 12px;
+}
+
+.office-list th {
+    color: var(--text-h);
+}
+
+.office-list .error {
+    color: crimson;
+    font-weight: bold;
+}
+
+.office-list .actions button + button {
+    margin-left: 8px;
+}
